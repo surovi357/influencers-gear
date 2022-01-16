@@ -177,6 +177,9 @@ main{
 .fa-star{
     color: #FB8200;
 }
+.fa-star-half-alt{
+    color: #FB8200;
+}
 .rating span{
     color: #5E6366;
     font-family: Roboto;
@@ -202,4 +205,29 @@ main{
 .button a{
     text-decoration: none;
     color: #E02C6D;
+}
+
+/* extra part */
+.collaboration{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+}
+.collaboration img{
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+footer{
+    color: #D9DBE1;
+    background-color: #0A0826;
+    text-align: center;
+    height: 200px;
+    padding-top: 10px;
+}
+.icons{
+    justify-content: space-between;
 }
