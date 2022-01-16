@@ -34,6 +34,7 @@ nav li a{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 .banner-text{
     width: 582px;
@@ -81,8 +82,22 @@ nav li a{
     height: 414px;
     margin-left: 30px;
     margin-top: 80px;
+    margin-bottom: 50px;
 }
 .banner-img:hover img{
-    transform: scale(1.4) rotate(30deg);
+    transform: scale(1.2) rotate(30deg);
     transition: transform 2s;
+}
+
+.logos img{
+
+    margin: 40px;
+    grid-column-gap: 2rem;
+    align-items: center;
+}
+hr{
+    margin-top: 20px;
+    color: rgba(185, 175, 175, 0.897);
+    width: 50%;
+    
 }
